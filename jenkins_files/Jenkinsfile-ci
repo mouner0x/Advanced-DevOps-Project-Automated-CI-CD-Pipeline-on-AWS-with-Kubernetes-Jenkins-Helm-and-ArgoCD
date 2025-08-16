@@ -15,7 +15,7 @@ pipeline{
 
         stage('checkout the repo'){
             steps{
-                git branch: 'main', credentialsId: 'github_cred', url: 'https://github.com/AbdelrhmanAli123/advanced-devops-task.git'
+                git branch: 'main', credentialsId: 'github_cred', url: 'https://github.com/mouner0x/Advanced-DevOps-Project-Automated-CI-CD-Pipeline-on-AWS-with-Kubernetes-Jenkins-Helm-and-ArgoCD.git'
             }
         }
         stage('build the image'){
